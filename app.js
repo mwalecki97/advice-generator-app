@@ -7,9 +7,18 @@ dotenv.config({ path: './config.env' })
 
 app.use(express.json())
 
+
+
+app.get('/', (req, res) => {
+  res.send('adviceGeneratorApi')
+})
+
 const router = require('./routes');
 const res = require('express/lib/response');
-app.use('/', router)
+app.use('/api', router)
+
+
+
 
 //Connecting to databse
 mongoose.connect(process.env.DB_CONNECT_URL)

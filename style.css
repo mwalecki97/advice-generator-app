@@ -1,0 +1,47 @@
+body{
+    background-color: #212632;
+    font-family: 'Manrope';
+}
+
+.main{ 
+    width: 550px;
+    height: 300px;
+    background-color: #313a49;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -275px;
+}
+
+#header{
+    padding-top: 45px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+#advice {
+    font-size: 25px;
+    padding-top: 16px;
+    color: hsl(193, 38%, 86%);
+}
+
+#divider {
+    margin-top: 40px;
+}
+
+#button{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: hsl(150, 100%, 66%);
+    margin-left: 250px;
+    border-radius: 100%;
+}
+
+#dice{
+    margin-top: 13px;
+}

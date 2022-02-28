@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const cors = require('cors')
 
 dotenv.config({ path: './config.env' })
 
 app.use(express.json())
-
-
+app.use(cors())
 
 app.get('/', (req, res) => {
   res.send('adviceGeneratorApi')
@@ -16,9 +16,6 @@ app.get('/', (req, res) => {
 const router = require('./routes');
 const res = require('express/lib/response');
 app.use('/api', router)
-
-
-
 
 //Connecting to databse
 mongoose.connect(process.env.DB_CONNECT_URL)

@@ -14,7 +14,6 @@ app.get('/', (req, res) => {
 })
 
 const router = require('./routes');
-const res = require('express/lib/response');
 app.use('/api', router)
 
 //Connecting to databse

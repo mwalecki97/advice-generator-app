@@ -5,7 +5,7 @@ body{
 
 .main{ 
     width: 550px;
-    height: 300px;
+    height: 320px;
     background-color: #313a49;
     border-radius: 10px;
     text-align: center;
@@ -24,19 +24,18 @@ body{
 }
 
 #advice {
+    height: 70px;
     font-size: 25px;
-    padding-top: 16px;
     color: hsl(193, 38%, 86%);
-}
-
-#divider {
-    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+    margin-top: 10px;;
 }
 
 #button{
     width: 50px;
     height: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: hsl(150, 100%, 66%);
     margin-left: 250px;
     border-radius: 100%;
@@ -44,4 +43,32 @@ body{
 
 #dice{
     margin-top: 13px;
+}
+
+#button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .main{
+        width: 300px;
+        height: 380px;
+        margin-top: -205px;
+        margin-left: -150px;
+    }
+
+    #advice{
+        height: 130px;
+    }
+
+    #divider {
+        width: 250px;
+    }
+
+    #button {
+        margin-left: 125px;
+    }
+
 }

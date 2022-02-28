@@ -1,4 +1,4 @@
-MY SOLUTION: https://advice-generator-app-oegkqo4r3-mwalecki97.vercel.app/. 
+MY SOLUTION: https://advice-generator-app-oegkqo4r3-mwalecki97.vercel.app/<br>
 Only diffrence comparing to original solution of this project is that i wrote api myself.
 
 # Frontend Mentor - Advice generator app
